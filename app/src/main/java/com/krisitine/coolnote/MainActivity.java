@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private TextView tv_content;
     private NoteDataBaseHelper DBHelper;
     private SQLiteDatabase DB;
+    private int name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
