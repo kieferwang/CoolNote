@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NoteEdit"/>
+        <activity android:name=".NoteEdit"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

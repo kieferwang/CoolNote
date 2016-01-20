@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void initView() {
         tv_content = (TextView) findViewById(R.id.tv_content);
         listView = (ListView) findViewById(R.id.listview);
+        listView.setVerticalScrollBarEnabled(false);
         dataList = new ArrayList<Map<String, Object>>();
         addNote = (Button) findViewById(R.id.btn_editnote);
         DBHelper = new NoteDataBaseHelper(this);

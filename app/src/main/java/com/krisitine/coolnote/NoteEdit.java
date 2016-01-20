@@ -23,6 +23,7 @@ public class NoteEdit extends Activity implements View.OnClickListener {
     private Button btn_cancel;
     Button button;
     Button button2;
+
 //    private NoteDateBaseHelper DBHelper;
     private NoteDataBaseHelper DBHelper;
     public int enter_state = 0;//用来区分是新建一个note还是更改原来的note

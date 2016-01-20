@@ -7,7 +7,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
         android:orientation="vertical"
 
         android:padding="15dp">
@@ -16,7 +15,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="编辑备忘录"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -26,7 +25,7 @@
             android:layout_height="wrap_content"
             android:gravity="end"
             android:text="编辑时间"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </LinearLayout>
 
     <LinearLayout
